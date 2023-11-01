@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pulse-monitoring-config-map
+data:
+  configServerHost: config-server
+  dataProviderHost: email-data-provider
